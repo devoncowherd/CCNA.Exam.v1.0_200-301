@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="../../qwafee-style.css">
+        <!--<script>alert("Please visit my github at https://github.com/devoncowherd");</script> -->
+       <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+        <script type="text/javascript" src="/scripts/qwafee-scripts.js"></script>
+    </head>
+    <body>
+    <header>
+      <h1><a href="../../index.html">CCNA 200 - 301</a></h1>
+    </header>
+    <nav>
+      <!-- Nav Credits go to w3schools.com-->
+      <div class="navbar">
+        <div class="subnav">
+          <button class="subnavbtn">Network Fundamentals <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="components.html">Components</a>
+            <a href="#team">Topology</a>
+            <a href="#careers">Interface and Cabling(I&C)</a>
+            <a href="#careers"></a>
+            <a href="#careers">I&C Issues</a>
+            <a href="#careers">TCP to UDP</a>
+            <a href="#careers">IPV4 Config</a>
+            <a href="#careers">IPV4 Privacy</a>
+            <a href="#careers">IPV6 Config</a>
+            <a href="#careers">IPV6 Types</a>
+            <a href="#careers">IP & OS</a>
+            <a href="#careers">Wireless Principles</a>
+            <a href="#careers">Virtualization</a>
+            <a href="#careers">Switching Concepts</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">Network Access <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#bring">VLANs</a>
+            <a href="#deliver">Interswitch Connectivity</a>
+            <a href="#package">Layer 2 Protocols</a>
+            <a href="#express">Cisco and AP modes</a>
+            <a href="#express">WLAN (AP, WLC,access,LAG)</a>
+            <a href="#express">Telnet,SSH,HTTP,HTTPS,console,TACACS+/RADIUS</a>
+            <a href="#express">GUI configuration</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">IP Connectivity <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">Routing Table</a>
+            <a href="#link2">Router Forwarding</a>
+            <a href="#link3">IPv4/IPv6 Static Routing</a>
+            <a href="#link4">OSPFv2</a>
+          </div>
+        </div>
+        <div class="subnav">
+          <button class="subnavbtn">IP Services <i class="fa fa-caret-down"></i></button>
+          <div class="subnav-content">
+            <a href="#link1">NAT</a>
+            <a href="#link2">NTP</a>
+            <a href="#link3">SNMP</a>
+            <a href="#link4">syslog</a>
+            <a href="#link4">DHCP</a>
+            <a href="#link4">PHB for QoS</a>
+            <a href="#link4">SSH</a>
+            <a href="#link4">TFTP/FTP</a>
+          </div>
+        </div>
+          <div class="subnav">
+            <button class="subnavbtn">Security Fundamentals<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="#link1">Security Concepts</a>
+              <a href="#link2">Security Program Elements</a>
+              <a href="#link3">Local Passwords</a>
+              <a href="#link4">Multifactor Authentication, Certificates, and Biometrics</a>
+              <a href="#link4">Remote Access and VPNs</a>
+              <a href="#link4">Layer 2 Security</a>
+              <a href="#link4">WPA2 PSK</a>
+            </div>
+          </div>
+            <div class="subnav">
+              <button class="subnavbtn">Automation and Programmability<i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="#link1">Impact of Automation</a>
+                <a href="#link2">Controller-Based Networking</a>
+                <a href="#link3">Controller-Based/Software Architectures</a>
+                <a href="#link4">Cisco DNA Center</a>
+                <a href="#link4">REST-Based APIs</a>
+                <a href="#link4">Puppet, Chef, and Ansible</a>
+                <a href="#link4">JSON Encoded Data</a>
+
+              </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+        <article><h1>Network Fundamentals: Components</h1></article>
+
+        <div id="divider"></div>
+
+
+        <article>
+            <h3>Network Interface Card (NIC)</h3>
+            <blockquote>
+                <a target="_blank" title="NIC as Defined by PACE university" href="http://webpage.pace.edu/ms16182p/networking/nic.html">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>The NIC is a hardware component that enables a computer to connect to a network such a home network and/or the Internet using an Ethernet cable with RJ-45 connector</p>
+                    <br>
+                    <strong><p>Types: </p></strong>
+                    <br>
+
+                    <p>Wireless, Wired, USB, and Fiber Optic</p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\NIC_by_srip.png">
+                </div>
+        </article>
+
+        <div id="divider"></div>
+        
+        <article>
+            <h3>Hosts</h3>
+            <blockquote>
+                <a target="_blank" title="Hosts as Defined by NIST" href="https://csrc.nist.gov/glossary/term/host">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>A host is any hardware device that has the capability of permitting access to a network via a user interface, specialized software, network address, protocol stack, or any other means. Some examples include, but are not limited to, computers, personal electronic devices, thin clients, and multi-functional devices.</p>
+                    <br>
+                    <strong><p>Types:</p></strong>
+                    <br>
+                    <p>Desktops, Laptops, Smartphones, and more!</p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\hosts_by_srip.png">
+                </div>
+        </article>
+        
+        <div id="divider"></div>
+        
+        <article>
+            <h3>Switches</h3>
+            <blockquote>
+                <a target="_blank" title="Hosts as Defined by NIST" href="https://csrc.nist.gov/glossary/term/switch">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>A device that channels incoming data from any of multiple input ports to the specific output port that will take the data toward its intended [intra-network/LAN] destination.</p>
+                    <br>
+                    <strong><p>Types:</p></strong>
+                    <br>
+                    <p>Modular, Fixed-Config, Unmanaged, Smart, and Managed </p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\switch_by_srip.png">
+                </div>
+        </article>
+        
+        <div id="divider"></div>
+        
+
+        <article>
+            <h3>Routers</h3>
+            <blockquote>
+                <a target="_blank" title="Hosts as Defined by NIST" href="https://csrc.nist.gov/glossary/term/router">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>  A computer that is a gateway between two networks at OSI layer 3 and that relays and directs data packets through that inter-network[/WAN]. The most common form of router operates on IP packets.</p>
+                    <br>
+                    <strong><p>Types:</p></strong>
+                    <br>
+                    <p>Wired, Wireless, Edge, Core, and Virtual </p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\router_by_srip.png">
+                </div>
+        </article>
+        
+        <div id="divider"></div>
+
+        <article>
+            <h3>Registered Jack (RJ)</h3>
+            <blockquote>
+                <a target="_blank" title="NIC as Defined by PACE university" href="https://www.its.bldrdoc.gov/fs-1037/dir-031/_4518.htm">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>Any of the series of jacks, described in the Code of Federal Regulations, Title 47, part 68, used to provide interface to the public telephone network - The most common in PC networking being RJ45(Twisted Pair). Note: You can find these jacks on most desktop computers.</p>
+                    <br>
+                    <strong><p>Types: </p></strong>
+                    <br>
+
+                    <p>RJ45, RJ11, etc</p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\RJ45_by_srip.png">
+                </div>
+        </article>
+        
+        <div id="divider"></div>
+        <article>
+            <h3>Firewalls</h3>
+            <blockquote>
+                <a target="_blank" title="NIC as Defined by PACE university" href="https://csrc.nist.gov/glossary/term/firewall">
+                    <strong><p>Definition:</p></strong>
+                    <br>
+                    <p>An inter-network connection device that restricts data communication traffic between two connected networks. A firewall may be either an application installed on a general-purpose computer or a dedicated platform (appliance), which forwards or rejects/drops packets on a network. Typically firewalls are used to define zone borders. Firewalls generally have rules restricting which ports are open.</p>
+                    <br>
+                    <strong><p>Types: </p></strong>
+                    <br>
+
+                    <p>Packet-filtering, Proxy, NAT, Web App, and Next-Gen Firewalls </p>
+                </a>
+            </blockquote>
+                <div id="icons">
+                    <img  src="..\..\images\network_fundamentals\fire_by_webalys.png">
+                </div>
+        </article>
+        
+        <div id="divider"></div>
+        <article>
+            <button class="next_page" type="button"> Previous </button>
+            <button class="previous_page" type="button"> Next </button>
+        </article>
+    </main>
+    <!--
+    <footer><div><strong>Web Design ©DevonCowherd</strong></div>
+    </footer>
+-->
+    </body>
+</html>

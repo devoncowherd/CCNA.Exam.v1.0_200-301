@@ -5,6 +5,17 @@ body
     margin: 0;
 }
 
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover
+{
+  color: red;
+}
+
 header h1
 {
   margin: 0;
@@ -96,6 +107,8 @@ h1 a:hover
 main
 {
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
   background-color: whitesmoke;
   margin-right: 5%;
   margin-left: 5%;
@@ -106,26 +119,115 @@ img
   max-width: 100%;
 }
 
-article
+
+
+blockquote
 {
+  margin: 0px;
   padding: 2%;
+  margin: 5%;
 }
 
 h3
 {
+  width: 5%;
+  margin: 2%;
+  padding: 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.CCNA_TITLE
+h1
 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: midnightblue;
 }
 
 p
 {
+  padding: 0px;
+  margin: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+.CCNA_TITLE
+{
+  color: midnightblue;
+  padding: auto;
+  margin: auto;
+}
+
+section
+{
+}
+
+article
+{
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.previous_page
+{
+  max-width:100px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:gray;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.previous_page:hover
+{
+  background-color: red;
+}
+
+
+#divider
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10000px;
+  max-width: 90%;
+  border: dotted black 1px;
+  opacity: .5;
+}
+.next_page
+{
+  max-width: 100px;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:gray;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.next_page:hover
+{
+  background-color: red;
+}
+
+#icons
+{
+  margin: 5%;
+  max-width: 15%;
+  padding: 1%;
+}
+
 footer
 {
   background-color:whitesmoke;
