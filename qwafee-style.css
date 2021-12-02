@@ -5,6 +5,13 @@ body
     margin: 0;
 }
 
+.intro_img
+{
+  max-width: 100%;
+  background-image: url("images/general/jj-ying-8bghKxNU1j0-unsplash.jpg");
+  background-repeat: repeat-y;
+}
+
 a
 {
   text-decoration: none;
@@ -120,7 +127,10 @@ img
 }
 
 
-
+#front_img
+{
+  max-width: 94%;
+}
 blockquote
 {
   margin: 0px;
@@ -145,6 +155,11 @@ h1
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: midnightblue;
+}
+
+h4
+{
+  padding: 2%;
 }
 
 p
@@ -230,9 +245,33 @@ article
 
 footer
 {
+  border-top: dotted gray 2px;
+  margin-top: 2%;
   background-color:whitesmoke;
   width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  text-align:left;
+}
+
+footer ul
+{
+  list-style:none;  
+}
+
+.footer-content
+{
+  flex-direction: column;
+}
+
+#claim
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  background-color: whitesmoke;
+  display: block;
+  width: 100%;
 }
