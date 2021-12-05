@@ -126,7 +126,7 @@ img
   max-width: 100%;
 }
 
-
+ 
 #front_img
 {
   max-width: 94%;
@@ -241,6 +241,19 @@ article
   margin: 5%;
   max-width: 15%;
   padding: 1%;
+}
+
+table, th,td
+{
+  background-color: m;
+  padding: 10px;
+  margin: 2%;
+  border: solid black 2px;
+}
+
+th, td
+{
+  background-color: white;
 }
 
 footer

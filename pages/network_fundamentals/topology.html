@@ -106,32 +106,30 @@
 
         <article>
             <h3>Network Types</h3>
-            <blockquote>
+            <blockquote style="border: solid black 2px;">
                 <a target="_blank" title="Network Topologies as defined by NC State" href="https://e115.engr.ncsu.edu/networking/network-topology/">
                     <strong><p>Local Area Network (LAN)</p></strong>
                     <br>
-                    <p>A Local Area Network (LAN) is a geographically small network consisting of nodes, computers, or other devices. All of the connected devices are usually found within the same building or structure. LANs are used to segregate and organize large networks into smaller, more manageable pieces. These networks tend to be owned and operated by the same people who own the nodes that connect to the network. These networks were established for home-users whenever connecting 2 or more networked devices in their “Home Network”. The devices in a specific LAN are connected via a switch.</p>
-                    <br>
-                    <br>
-                    <strong><p></p></strong>
-                    <br>
-                    <strong><p>Wide Area Network(WAN)</p></strong>
-                    <br>
-                    <p>A Wide Area Network (WAN) is geographically larger than a LAN. WANs are usually owned and/or maintained by a larger company, which may use the WAN for corporate purposes or lease it out for communication. Telecommunication companies such as Charter Spectrum (formerly Time Warner Cable) and AT&T Inc. (formerly BellSouth) run WANs that provide a method for people and companies to join to other LANs and connect to global communications such as the Internet. LANs are connected to WANs, and WANs are connected to each other, using routers.</p>
+                    <p>A Local Area Network (LAN) is a geographically <strong>small network</strong> consisting of nodes, computers, or other devices. All of the connected devices are usually found within the same building or structure. LANs are used to segregate and organize large networks into smaller, more manageable pieces. These networks tend to be owned and operated by the same people who own the nodes that connect to the network. These networks were established for home-users whenever connecting 2 or more networked devices in their “Home Network”. The devices in a specific LAN are connected via a switch.</p>
                     <br>
                     <br>
                     <strong><p>Virtual Local Area Network(VLAN)</p></strong>
                     <br>
-                    <p>A Wide Area Network (WAN) is geographically larger than a LAN. WANs are usually owned and/or maintained by a larger company, which may use the WAN for corporate purposes or lease it out for communication. Telecommunication companies such as Charter Spectrum (formerly Time Warner Cable) and AT&T Inc. (formerly BellSouth) run WANs that provide a method for people and companies to join to other LANs and connect to global communications such as the Internet. LANs are connected to WANs, and WANs are connected to each other, using routers.</p>
+                    <p>Virtual LANs (VLANs) allow nodes to be attached virtually to a LAN, instead of physically. In essence, a VLAN acts as a WAN, but at the local level.</p>
                     <br>
                     <br>
                     <strong><p>Metropolitan Area Network (MAN)</p></strong>
                     <br>
-                    <p>A Metropolitan Area Network (MAN) is between a LAN and a WAN in size. It is normally owned by an Internet Service Provider (ISP), the same companies who own and operate WANs, but has a lot of features like a LAN. Companies can use a MAN across a city to connect several offices. MANs are connected using a combination of routers and specialized switches.</p>
+                    <p>A Metropolitan Area Network (MAN) is <strong>between a LAN and a WAN</strong> in size. It is normally owned by an Internet Service Provider (ISP), the same companies who own and operate WANs, but has a lot of features like a LAN. Companies can use a MAN across a city to connect several offices. MANs are connected using a combination of routers and specialized switches.</p>
                     <br>
                     <br>
-                    
-                    
+                    <strong><p>Wide Area Network(WAN)</p></strong>
+                    <br>
+                    <p>A Wide Area Network (WAN) is geographically <strong>larger than a LAN</strong>. WANs are usually owned and/or maintained by a larger company, which may use the WAN for corporate purposes or lease it out for communication. Telecommunication companies such as Charter Spectrum (formerly Time Warner Cable) and AT&T Inc. (formerly BellSouth) run WANs that provide a method for people and companies to join to other LANs and connect to global communications such as the Internet. LANs are connected to WANs, and WANs are connected to each other, using routers.</p>
+                    <br>
+                    <br>
+
+        
                 </a>
             </blockquote>
 
@@ -140,45 +138,60 @@
         <div id="divider"></div>
 
         <article>
-            <h3>Common Configs</h3>
-            <blockquote>
-                <a target="_blank" title="Network Topologies as defined by NC State" href="https://e115.engr.ncsu.edu/networking/network-topology/">
-                    <strong><p>Star Network</p></strong>
-                    <br>
-                    <p>A star network is a network in which computers are connected by one central device known as a concentrator. The concentrator manages and controls all functions of the network. In addition, the concentrator acts as a repeater for the network. A repeater is a device that strengthens the signal of the communication as it travels over the appropriate medium.</p>
-                    <br>
-                    <br>
-                    <strong><p>Tree Network</p></strong>
-                    <br>
-                    <p>Tree networks are collections of star networks arranged in a hierarchy. Concentrators from each star network are connected to each other in a particular order to form the tree.</p>
-                    <br>
-                    <br>
-                    <strong><p>Bus Network</p></strong>
-                    <br>
-                    <p>In a bus network, a set of clients is connected using a single shared connection line known as a bus. Bus networks are the simplest way to connect devices, but problems occur when two devices want to communicate at the same time. Bus networks typically use a collision detection/prevention method known as Carrier Sense Multiple Access (CSMA) to ensure proper data communication.</p>
-                    <br>
-                    <br>
-                    <strong><p>Ring Network</p></strong>
-                    <br>
-                    <p>In a ring network, nodes are connected in a circular configuration. Data can travel either clockwise or counterclockwise around the ring, but all data must travel in the same direction. For information to be sent from one node to another, it must be sent around the ring and through each node until it reaches its destination.</p>
-                    <br>
-                    <br>
+          <blockquote style="border: solid black 2px;">
+
+          <a target="_blank" title="Network Topologies as defined by NC State" href="https://e115.engr.ncsu.edu/networking/network-topology/">
+              <strong><p>Star Network</p></strong>
+              <br>
+              <p>A star network is a network in which computers are connected by one central device known as a concentrator. The concentrator manages and controls all functions of the network. In addition, the concentrator acts as a repeater for the network. A repeater is a device that strengthens the signal of the communication as it travels over the appropriate medium.</p>
+              <img src="../../images/network_fundamentals/starnetwork_by_Qwafee.PNG">
+          
+
+                <strong><p>Tree Network</p></strong>
+                <br>
+                <p>Tree networks are collections of star networks arranged in a hierarchy. Concentrators from each star network are connected to each other in a particular order to form the tree.</p>
+                <img src="../../images/network_fundamentals/treenetwork_by_Qwafee.PNG">
+    
+                <strong><p>Bus Network</p></strong>
+                <br>
+                <p>In a bus network, a set of clients is connected using a single shared connection line known as a bus. Bus networks are the simplest way to connect devices, but problems occur when two devices want to communicate at the same time. Bus networks typically use a collision detection/prevention method known as Carrier Sense Multiple Access (CSMA) to ensure proper data communication.</p>
+                <img src="../../images/network_fundamentals/busnetwork_by_Qwafee.PNG">
+     
+                <strong><p>Ring Network</p></strong>
+                <br>
+                <p>In a ring network, nodes are connected in a circular configuration. Data can travel either clockwise or counterclockwise around the ring, but all data must travel in the same direction. For information to be sent from one node to another, it must be sent around the ring and through each node until it reaches its destination.</p>
+                <img src="../../images/network_fundamentals/ringnetwork_by_Qwafee.PNG">
+
             </blockquote>
+         
+                    <h3>Network Configurations</h3>
 
-        </article>
+          <table title="Key" style="max-height:25px; margin-left:auto; margin-right:auto;">
+            <tr>
+              <th>Blue</th>
+              <th>Red</th>
+              <th>Green</th>
+            </tr>
+            <tr>
+              <td>Host/Client</td>
+              <td>Router/Switch</td>
+              <td>Cables</td>
+          </table>
+        </a>
+      </article>
+      
+    
+      <div id="divider"></div>
 
-        <div id="divider"></div>
-        
-
-        <article>
+          <section style="padding: 2%;margin-left:auto; margin-right:auto;">
             <a href="components.html">
                 <button class="previous_page" type="button"> Previous </button>
             </a>
-            <a href="">
+            <a href="IaC.html">
                 <button class="next_page" type="button"> Next </button>
             </a>
-
-        </article>
+          </section>
+    
     </main>
     <!--
     <footer><div><strong>Web Design ©DevonCowherd</strong></div>
